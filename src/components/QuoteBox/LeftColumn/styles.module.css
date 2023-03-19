@@ -1,0 +1,52 @@
+.icon {
+  margin: 10px;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .leftColumn {
+    width: 100%;
+  }
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+.leftBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-top: none;
+  font-family: sans-serif;
+}
+
+.deliveryDays {
+  margin-top: 0;
+  color: #4129c7;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.estimatedDelivery {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.deliveryDates {
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
